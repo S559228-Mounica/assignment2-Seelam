@@ -31,6 +31,7 @@ The below table contains details about the countries that you must visit atleast
 > Two things are infinite: the universe and human stupidity. And I'm not sure about the universe.
 
 *-Albert Einstein*
+
 -----
 # php code
 > How to get latest Twitter Status <https://stackoverflow.com/questions/17049821/setting-up-twitter-api-getting-the-last-few-tweets>
