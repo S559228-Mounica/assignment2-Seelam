@@ -22,3 +22,9 @@ The below table contains details about the countries that you must visit atleast
 |Australia|Beautiful weather|13|
 |France|Great Monuments|20|
 |Canada|rivers and waterfalls|25|
+------
+# Pithy Quotes
+> I'm sick of following my dreams, man. I'm just going to ask where they're going and hook up with ’em later. 
+*-Mitch Hedberg*
+> Two things are infinite: the universe and human stupidity. And I'm not sure about the universe.
+*-Albert Einstein*
