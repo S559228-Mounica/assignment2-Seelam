@@ -31,3 +31,26 @@ The below table contains details about the countries that you must visit atleast
 > Two things are infinite: the universe and human stupidity. And I'm not sure about the universe.
 
 *-Albert Einstein*
+-----
+# php code
+> How to get latest Twitter Status <https://stackoverflow.com/questions/17049821/setting-up-twitter-api-getting-the-last-few-tweets>
+```
+<?php
+
+function getTwitterStatus($userid){
+$url = "https://api.twitter.com/1/statuses/user_timeline/$userid.xml?count=1&include_rts=1callback=?";
+
+$xml = simplexml_load_file($url) or die("could not connect");
+
+       foreach($xml->status as $status){
+       $text = $status->text;
+       }
+       echo $text;
+ }
+
+// USAGE
+getTwitterStatus("chriscoyier");
+
+?>
+```
+Snippet source<https://css-tricks.com/snippets/php/get-latest-twitter-status/>
